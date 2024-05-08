@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @VerCh93
+- 👋 Hi, I’m @VerCh93 (Veronika)
 - 👀 I’m interested in cybersecurity and programming.
 - 🌱 I’m currently learning Java.
 - 💞️ I’d love to collaborate on some projects concering educational apps! (I have a backgroud in education)
