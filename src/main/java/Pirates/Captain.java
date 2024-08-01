@@ -12,4 +12,8 @@ public class Captain extends Pirate{
         goldAmount += 4;
         healthPoints -= 3;
     }
+    @Override
+    public boolean isCaptain() {
+        return true;
+    }
 }

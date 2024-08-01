@@ -1,0 +1,15 @@
+﻿Elephant: 5400 kg
+Blue Whale: 150000 kg
+Giraffe: 1200 kg
+Lion: 190 kg
+Horse: 600 kg
+Kangaroo: 85 kg
+Penguin: 25 kg
+Eagle: 6.5 kg
+Snake: 15 kg
+Rabbit: 2 kg
+Shark: 1100 kg
+Dolphin: 300 kg
+Bear: 500 kg
+Frog: 0.5 kg
+Mouse: 0.05 kg

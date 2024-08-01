@@ -1,5 +1,7 @@
 package Pirates;
 
+import java.util.Random;
+
 public class Pirate {
     protected String name;
     protected int goldAmount = 0;
@@ -23,7 +25,7 @@ public class Pirate {
         return goldAmount;
     }
     public boolean isPoor() {
-        if (!hasWoodenLeg && (goldAmount < 15)) {
+        if (hasWoodenLeg && (goldAmount < 15)) {
             return true;
         } else {
             return false;
@@ -52,4 +54,24 @@ public class Pirate {
             return "Hello! I'm " + getName() + ", I still have my real legs, " + getGoldAmount() + " gold, and health at " + healthPoints;
         }
     }
+    public boolean isCaptain() {
+        return false;
+    }
+
+    public void argue(Pirate pirate) {
+        System.out.println(this.name + " is arguing with " + pirate.getName());
+        Random random= new Random();
+        switch (random.nextInt(2) + 1){
+            case 1:
+                System.out.println(this.name + " punched " + pirate.getName());
+                break;
+            case 2: System.out.println(pirate.getName() + " punched " + this.name);
+                break;
+        }
+    }
+    public void battle(Pirate pirate) {
+
+    }
+
+
 }
